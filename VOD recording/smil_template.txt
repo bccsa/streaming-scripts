@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil title="">
+   <body>
+      <switch>
+         <video height="720" width="1280" src="_source_" systemLanguage="mul" title="Untranslated">
+            <param name="videoBitrate" value="3000000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="0" valuetype="data"></param>
+            <param name="audioIndex" value="0" valuetype="data"></param>
+         </video>
+         <video height="540" width="960" src="_source_" systemLanguage="mul" title="Untranslated">
+            <param name="videoBitrate" value="1650000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="1" valuetype="data"></param>
+            <param name="audioIndex" value="0" valuetype="data"></param>
+         </video>
+         <video height="450" width="800" src="_source_" systemLanguage="mul" title="Untranslated">
+            <param name="videoBitrate" value="935000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="2" valuetype="data"></param>
+            <param name="audioIndex" value="0" valuetype="data"></param>
+         </video>
+         <video height="360" width="640" src="_source_" systemLanguage="mul" title="Untranslated">
+            <param name="videoBitrate" value="385000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="3" valuetype="data"></param>
+            <param name="audioIndex" value="0" valuetype="data"></param>
+         </video>
+         <video height="270" width="480" src="_source_" systemLanguage="mul" title="Untranslated">
+            <param name="videoBitrate" value="180000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="4" valuetype="data"></param>
+            <param name="audioIndex" value="1" valuetype="data"></param>
+         </video>
+         <video height="180" width="320" src="_source_" systemLanguage="mul" title="Untranslated">
+            <param name="videoBitrate" value="120000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="5" valuetype="data"></param>
+            <param name="audioIndex" value="1" valuetype="data"></param>
+         </video>
+         <video height="720" width="1280" src="_source_" systemLanguage="eng" title="English">
+            <param name="videoBitrate" value="3000000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="0" valuetype="data"></param>
+            <param name="audioIndex" value="2" valuetype="data"></param>
+         </video>
+         <video height="540" width="960" src="_source_" systemLanguage="eng" title="English">
+            <param name="videoBitrate" value="1650000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="1" valuetype="data"></param>
+            <param name="audioIndex" value="2" valuetype="data"></param>
+         </video>
+         <video height="450" width="800" src="_source_" systemLanguage="eng" title="English">
+            <param name="videoBitrate" value="935000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="2" valuetype="data"></param>
+            <param name="audioIndex" value="2" valuetype="data"></param>
+         </video>
+         <video height="360" width="640" src="_source_" systemLanguage="eng" title="English">
+            <param name="videoBitrate" value="385000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="3" valuetype="data"></param>
+            <param name="audioIndex" value="2" valuetype="data"></param>
+         </video>
+         <video height="270" width="480" src="_source_" systemLanguage="eng" title="English">
+            <param name="videoBitrate" value="180000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="4" valuetype="data"></param>
+            <param name="audioIndex" value="3" valuetype="data"></param>
+         </video>
+         <video height="180" width="320" src="_source_" systemLanguage="eng" title="English">
+            <param name="videoBitrate" value="120000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="5" valuetype="data"></param>
+            <param name="audioIndex" value="3" valuetype="data"></param>
+         </video>
+         <video height="720" width="1280" src="_source_" systemLanguage="fra" title="Française">
+            <param name="videoBitrate" value="3000000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="0" valuetype="data"></param>
+            <param name="audioIndex" value="4" valuetype="data"></param>
+         </video>
+         <video height="540" width="960" src="_source_" systemLanguage="fra" title="Française">
+            <param name="videoBitrate" value="1650000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="1" valuetype="data"></param>
+            <param name="audioIndex" value="4" valuetype="data"></param>
+         </video>
+         <video height="450" width="800" src="_source_" systemLanguage="fra" title="Française">
+            <param name="videoBitrate" value="935000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="2" valuetype="data"></param>
+            <param name="audioIndex" value="4" valuetype="data"></param>
+         </video>
+         <video height="360" width="640" src="_source_" systemLanguage="fra" title="Française">
+            <param name="videoBitrate" value="385000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="3" valuetype="data"></param>
+            <param name="audioIndex" value="4" valuetype="data"></param>
+         </video>
+         <video height="270" width="480" src="_source_" systemLanguage="fra" title="Française">
+            <param name="videoBitrate" value="180000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="4" valuetype="data"></param>
+            <param name="audioIndex" value="5" valuetype="data"></param>
+         </video>
+         <video height="180" width="320" src="_source_" systemLanguage="fra" title="Française">
+            <param name="videoBitrate" value="120000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="5" valuetype="data"></param>
+            <param name="audioIndex" value="5" valuetype="data"></param>
+         </video>
+         <video height="720" width="1280" src="_source_" systemLanguage="nya" title="Chichewa / Nyanja">
+            <param name="videoBitrate" value="3000000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="0" valuetype="data"></param>
+            <param name="audioIndex" value="6" valuetype="data"></param>
+         </video>
+         <video height="540" width="960" src="_source_" systemLanguage="nya" title="Chichewa / Nyanja">
+            <param name="videoBitrate" value="1650000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="1" valuetype="data"></param>
+            <param name="audioIndex" value="6" valuetype="data"></param>
+         </video>
+         <video height="450" width="800" src="_source_" systemLanguage="nya" title="Chichewa / Nyanja">
+            <param name="videoBitrate" value="935000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="2" valuetype="data"></param>
+            <param name="audioIndex" value="6" valuetype="data"></param>
+         </video>
+         <video height="360" width="640" src="_source_" systemLanguage="nya" title="Chichewa / Nyanja">
+            <param name="videoBitrate" value="385000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="3" valuetype="data"></param>
+            <param name="audioIndex" value="6" valuetype="data"></param>
+         </video>
+         <video height="270" width="480" src="_source_" systemLanguage="nya" title="Chichewa / Nyanja">
+            <param name="videoBitrate" value="180000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="4" valuetype="data"></param>
+            <param name="audioIndex" value="7" valuetype="data"></param>
+         </video>
+         <video height="180" width="320" src="_source_" systemLanguage="nya" title="Chichewa / Nyanja">
+            <param name="videoBitrate" value="120000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="5" valuetype="data"></param>
+            <param name="audioIndex" value="7" valuetype="data"></param>
+         </video>
+         <video height="720" width="1280" src="_source_" systemLanguage="swa" title="Swahili">
+            <param name="videoBitrate" value="3000000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="0" valuetype="data"></param>
+            <param name="audioIndex" value="8" valuetype="data"></param>
+         </video>
+         <video height="540" width="960" src="_source_" systemLanguage="swa" title="Swahili">
+            <param name="videoBitrate" value="1650000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="1" valuetype="data"></param>
+            <param name="audioIndex" value="8" valuetype="data"></param>
+         </video>
+         <video height="450" width="800" src="_source_" systemLanguage="swa" title="Swahili">
+            <param name="videoBitrate" value="935000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="2" valuetype="data"></param>
+            <param name="audioIndex" value="8" valuetype="data"></param>
+         </video>
+         <video height="360" width="640" src="_source_" systemLanguage="swa" title="Swahili">
+            <param name="videoBitrate" value="385000" valuetype="data"></param>
+            <param name="audioBitrate" value="128000" valuetype="data"></param>
+            <param name="videoIndex" value="3" valuetype="data"></param>
+            <param name="audioIndex" value="8" valuetype="data"></param>
+         </video>
+         <video height="270" width="480" src="_source_" systemLanguage="swa" title="Swahili">
+            <param name="videoBitrate" value="180000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="4" valuetype="data"></param>
+            <param name="audioIndex" value="9" valuetype="data"></param>
+         </video>
+         <video height="180" width="320" src="_source_" systemLanguage="swa" title="Swahili">
+            <param name="videoBitrate" value="120000" valuetype="data"></param>
+            <param name="audioBitrate" value="64000" valuetype="data"></param>
+            <param name="videoIndex" value="5" valuetype="data"></param>
+            <param name="audioIndex" value="9" valuetype="data"></param>
+         </video>
+      </switch>
+   </body>
+</smil>

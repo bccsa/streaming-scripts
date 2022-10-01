@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Razor script -->
+    @{
+		string divGuid = "vid_" + Guid.NewGuid().ToString();
+		string scriptGuid = "script_" + Guid.NewGuid().ToString();
+        string result_hls = Parameter.url_hls;
+		string result_dash = Parameter.url_dash;
+		string playerStyle = "";
+		string playerFluid = "true";
+										   
+		Response.AppendHeader("Access-Control-Allow-Origin", "*");
+		
+		if (Parameter.audio_only == "1")
+		{
+			playerStyle = "width:200px; height:200px;";
+			playerFluid = "false";
+		}
+										   
+		string videojs = "https://unpkg.com/video.js@7.10.2/dist/video.min.js";
+		string jquery = "https://unpkg.com/browse/jquery@3.6.0/dist/jquery.min.js";
+    }
+
+	<link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
+	<script src="@jquery"></script>
+	<script src="@videojs"></script>
+	
+</head>
+
+<body>
+	<video-js id='@divGuid' class="vjs-default-skin" style="@playerStyle" controls>
+    <source
+    	src="@result_hls"
+    	type="application/x-mpegURL">
+	</video-js>
+	<script id='@scriptGuid'>
+		var _vhsSettings;
+		if (videojs.browser.IS_SAFARI) {
+			_vhsSettings = { overrideNative: true }
+		}
+		else {
+			_vhsSettings = { overrideNative: true, bandwidth: 100000 }
+		}
+		var player = videojs('@divGuid',{
+			fluid: @playerFluid,
+            html5: {
+                vhs: _vhsSettings,
+                nativeAudioTracks: false,
+                nativeVideoTracks: false,
+            },
+            controls: true,
+            autoplay: false,
+            preload: "auto"
+			//poster: "https://cdn.britannica.com/55/174255-050-526314B6/brown-Guernsey-cow.jpg"
+        });
+		
+		player.ready(function(){
+			this.on("play", function(e) {
+				let o = this;
+				setTimeout(function() {
+					//o.requestFullscreen();
+				},1000);
+				//pause other players
+				$("video-js").each(function (index) {
+					if ('@divGuid' !== $(this).attr('id')) {
+						this.player.pause();
+					}
+				});
+			});
+			this.on("pause", function(e) {
+				//this.exitFullscreen();
+			});
+		});
+
+		//player.hlsQualitySelector();
+	</script>
+</body>
+</html>
